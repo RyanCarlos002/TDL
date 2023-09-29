@@ -5,35 +5,35 @@ export default function Home() {
     <>
       <header className='flex bg-black justify-between text-gray-50 gap-20 items-center ' >
 
-        <nav className='m-10 font-bold text-xl'>
-          <a href="">#4anosTDL</a>
+        <nav className='m-5 font-bold '>
+          <a href="">#TDLnuncaDecepciona</a>
         </nav>
          
         <div>
-          <Image alt='' height={200} width={200} src={'/logoTDL2 (1).png'}/>
+          <Image alt='' height={200} width={200} src={'/LogoTDL2 (1).png'} className='blur-[50px]' />
+          <Image alt='' height={200} width={200} src={'/LogoTDL2 (1).png'} className='absolute  hover:bg-green-800 hover:blur-[50px] top-0' />
         </div>
         
-        <nav className='m-10 font-bold text-xl'>
+        <nav className='m-5 font-bold text'>
           <a href="">#TDLnuncaDecepciona</a>
         </nav>
       </header>
 
-      <header className='bg-black flex justify-around text-white text-lg items-center  '>
-        <nav className='flex gap-44'>
-          <a href="">Quem somos? </a>
-          <a href="">Proximos eventos </a>
-          <a href="">Contrate </a>
-          <a href="">Sobre</a>
-
-        </nav>
-      </header>
-
-
-      <section className="bg-[url('https://e1.pxfuel.com/desktop-wallpaper/501/58/desktop-wallpaper-black-skin-texture-abstract-backgrounds-black-texture.jpg')] h-screen flex   ">
-        <div>
-            ola mundo!
-        </div>
+      <section className="bg-[url('https://static.vecteezy.com/ti/fotos-gratis/p1/11111644-fundo-de-textura-de-concreto-preto-fundo-aspero-grunge-antigo-para-design-de-banner-do-site-gratis-foto.jpg')] h-screen flex w-auto bg-cover ">
+          <nav className='text-white grid font-extrabold text-lg p-12 '>
+            <div>
+              <a href="">Quem somos? </a> 
+              <a href="">Proximos eventos </a>
+              <a href="">Contrate </a>
+              <a href="">Sobre</a>
+            </div>
+            <div>
+              <Image alt='' height={500} width={200} src={'/'} />
+            </div>
+          </nav>
+        <video className='w-[230px] h-[300px] aspect-video border-2' controls autoPlay src="/tdl.mp4"></video>
       </section>
     </>
   )
 }
+
